@@ -1,0 +1,35 @@
+{
+  "name": "skeleton",
+  "namespace": false,
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react",
+    "rescript-nodejs"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "ppx-flags": [],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".mjs",
+  "warnings": {
+    "number": "-3-30",
+    "error": "+101+8"
+  },
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": []
+  }
+}
